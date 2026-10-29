@@ -1,0 +1,23 @@
+ cmake -G "Unix Makefiles"  -DPython3_EXECUTABLE="C:\Python314\python.exe" ..  PICO_SDK_PATH is C:/Users/user/naunau/microcon/pico-sdk
+Target board (PICO_BOARD) is 'pico'.
+Using board configuration from C:/Users/user/naunau/microcon/pico-sdk/src/boards
+/include/boards/pico.h
+Pico Platform (PICO_PLATFORM) is 'rp2040'.
+Build type is Release
+-- Found Python3: C:\Python314\python.exe (found version "3.14.3") found compone
+nts: Interpreter
+-- Detected native TLS (__aeabi_read_tp)
+TinyUSB available at C:/Users/user/naunau/microcon/pico-sdk/lib/tinyusb/hw/bsp/r
+p2040; enabling build support for USB.
+BTstack available at C:/Users/user/naunau/microcon/pico-sdk/lib/btstack
+cyw43-driver available at C:/Users/user/naunau/microcon/pico-sdk/lib/cyw43-drive
+r
+mbedtls available at C:/Users/user/naunau/microcon/pico-sdk/lib/mbedtls
+lwIP available at C:/Users/user/naunau/microcon/pico-sdk/lib/lwip
+C library type is newlib
+Using picotool from C:/Users/user/naunau/microcon/picotool-2.3.0-x64-win/picotoo
+l/picotool.exe
+-- Configuring done (3.5s)
+-- Generating done (0.5s)
+-- Build files have been written to: C:/Users/user/naunau/microcon/Repositories/
+pico/112-blink/build
